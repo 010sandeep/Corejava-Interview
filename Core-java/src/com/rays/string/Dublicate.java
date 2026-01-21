@@ -17,7 +17,6 @@ public class Dublicate {
 					ch[j] = 0;
 
 				}
-
 			}
 
 			if (count > 1 && ch[i] != 0) {

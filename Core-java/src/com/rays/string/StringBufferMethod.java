@@ -7,6 +7,8 @@ public class StringBufferMethod {
 		StringBuffer sb = new StringBuffer("Sandeep");
 
 		System.out.println("length :" + sb.length());
+		
+		System.out.println("insert : " + sb.insert(6, "sa"));
 
 		System.out.println("Capacity : " + sb.capacity());
 
