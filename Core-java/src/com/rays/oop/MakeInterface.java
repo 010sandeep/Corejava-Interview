@@ -7,44 +7,18 @@ public interface MakeInterface {
 	
 	public static final int NUM = 123;
 	
-	public int sum();
+	public int sum(int a, int b);
 	
 	
 	public static void sub() { 
-		System.out.println(NUM );
+		System.out.println("sub method" );
 	}
 
 	
 	public default void add () {
 		
-		System.out.println(NAME );
+		System.out.println("add method" );
 	}
 	
-	public static void main(String[] args) {
-		
-		
-		
-		//Interface static method call
-		MakeInterface.sub();
-		
-		// Interface attribute call
-		System.out.println(MakeInterface.NAME);
-		
-		
-		//default method call
-		MakeInterface in = new MakeInterface() {
-			
-		
-			
-			@Override
-			public int sum() {
-				// TODO Auto-generated method stub
-				return 0;
-			}
-		};
-		
-		in.add();
-		
-	}
 	
 }
