@@ -4,15 +4,25 @@ public class ConstructorCalling {
 
 	private String fName;
 	private String lName;
-	private String address;
 
-	public ConstructorCalling(String fName, String lName,String address) {
+	public ConstructorCalling() {
+		System.out.println("Default Constructor");
+	}
+
+	public ConstructorCalling(String fName) {
+		this();
 		this.fName = fName;
-		this.lName = lName;
-		this.address = address;
-		
 
-		System.out.println(fName +" "+ lName  +  " " + address);
+		System.out.println(fName);
+
+	}
+
+	public ConstructorCalling(String fName, String lName) {
+
+		this(fName);
+		this.lName = lName;
+
+		System.out.println(lName);
 
 	}
 
