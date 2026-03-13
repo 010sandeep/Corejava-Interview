@@ -7,12 +7,12 @@ public class TestArithmetic {
 		int a = 10;
 
 		try {
-
 			int c = a / 0;
 			System.out.println(c);
-		} catch (ArithmeticException e) {
 
+		} catch (ArithmeticException e) {
 			System.out.println(e);
+
 		}
 
 	}

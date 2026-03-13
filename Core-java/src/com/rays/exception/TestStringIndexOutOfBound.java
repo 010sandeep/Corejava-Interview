@@ -7,12 +7,12 @@ public class TestStringIndexOutOfBound {
 		String s = "Sandeep";
 
 		try {
-			System.out.println(s.charAt(10));
 
+			System.out.println(s.charAt(10));
 		} catch (StringIndexOutOfBoundsException e) {
 
 			System.out.println(e);
-		}
 
+		}
 	}
 }

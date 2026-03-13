@@ -24,7 +24,10 @@ public class TestNoSuchElement {
 		} catch (NoSuchElementException e) {
 
 			System.out.println(e);
+//			System.exit(0);
 //			e.printStackTrace();
+		}finally {
+			System.out.println("finally block");
 		}
 	}
 
