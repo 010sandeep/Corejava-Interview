@@ -16,7 +16,7 @@ public class Account {
 
 		balance = balance + amt;
 
-		System.out.println("After deposite balance  = " + this.balance);
+		System.out.println("After deposite balance  = " + balance);
 	}
 
 	public void withdrwal(double amt) throws InsufficentFundException {
@@ -24,7 +24,7 @@ public class Account {
 		balance = balance - amt;
 
 		if (balance >= 0) {
-			System.out.println(balance);
+			System.out.println("withdrawl amouiunt = " + balance);
 
 		} else {
 
