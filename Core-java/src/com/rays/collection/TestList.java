@@ -41,6 +41,8 @@ public class TestList {
 		System.out.println("list indexOf => " + list.indexOf('a'));
 
 		System.out.println(list.subList(0, 3));
+		
+		
 
 		
 	}

@@ -32,6 +32,7 @@ public class CollectionMethod {
 		System.out.println(c);
 		c.clear();
 		System.out.println(c);
+		
 
 	}
 
