@@ -36,18 +36,17 @@ public class TestComparator {
 //
 //			System.out.println(it.next());
 //		}
-		
+
 		EmployeeSortByIdNameSalary byIdNameSalary = new EmployeeSortByIdNameSalary();
-		
-		Collections.sort(list,byIdNameSalary);
-		
+
+		Collections.sort(list, byIdNameSalary);
+
 		Iterator it = list.iterator();
-		
-				while (it.hasNext()) {
-		
-				System.out.println(it.next());
-			}
-		
+
+		while (it.hasNext()) {
+
+			System.out.println(it.next());
+		}
 
 	}
 
