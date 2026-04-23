@@ -15,17 +15,17 @@ public class TestComparator {
 		list.add(new Employee(2, "d", 50000));
 		list.add(new Employee(5, "f", 40000));
 
-//		EmployeeSortByName byName = new EmployeeSortByName();
-//
-//		Collections.sort(list, byName);
-//
-//		Iterator it = list.iterator();
-//
-//		while (it.hasNext()) {
-//
-//			System.out.println(it.next());
-//		}
-//
+		EmployeeSortByName byName = new EmployeeSortByName();
+
+		Collections.sort(list, byName);
+
+		Iterator it = list.iterator();
+
+		while (it.hasNext()) {
+
+			System.out.println(it.next());
+		}
+
 //		EmployeeSortByIdName ByIdName = new EmployeeSortByIdName();
 //
 //		Collections.sort(list, ByIdName);
@@ -37,16 +37,16 @@ public class TestComparator {
 //			System.out.println(it.next());
 //		}
 
-		EmployeeSortByIdNameSalary byIdNameSalary = new EmployeeSortByIdNameSalary();
-
-		Collections.sort(list, byIdNameSalary);
-
-		Iterator it = list.iterator();
-
-		while (it.hasNext()) {
-
-			System.out.println(it.next());
-		}
+//		EmployeeSortByIdNameSalary byIdNameSalary = new EmployeeSortByIdNameSalary();
+//
+//		Collections.sort(list, byIdNameSalary);
+//
+//		Iterator it = list.iterator();
+//
+//		while (it.hasNext()) {
+//
+//			System.out.println(it.next());
+//		}
 
 	}
 
